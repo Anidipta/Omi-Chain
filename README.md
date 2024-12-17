@@ -15,23 +15,19 @@
 - 📜 Smart Contracts: Solidity for issuing and verifying credentials.
 - 🖥️ Frontend: Streamlit (Python) for a seamless user interface.
 - ⚙️ Backend: Flask (Python) for API and server-side logic.
-- 🗄️ Database: IPFS for off-chain data storage.
 - 🔑 Authentication: OAuth 2.0 for secure login.
 ---
 ## Advanced Features
-- 👛 Wallet Integration: MetaMask and Coinbase Wallet for decentralized authentication and blockchain interaction.
-- ❌ Credential Revocation: Institutions can revoke credentials with notifications to students.
+- 👛 Wallet Integration: MetaMask  for decentralized authentication and blockchain interaction.
 - 📚 Multi-Credential Management: Batch issuance and credential history tracking.
 - ✅ Enhanced Verification: Generate detailed reports with timestamps and feedback for continuous improvement.
 - 🔐 Data Privacy Controls: Selective credential sharing and anonymized verification.
-- 📱 Mobile Compatibility: Responsive design with mobile-friendly QR code scanning.
 - 📊 Analytics Dashboard: Real-time insights for institutions on credential activity.
 ---
 ## Implementation Highlights
 - Wallet Integration: Use web3.py for MetaMask and Coinbase connections.
 - Smart Contracts: Implement robust revocation and issuance mechanisms.
 - Batch Issuance: Enable CSV uploads for processing multiple credentials.
-- Responsive UI: Ensure cross-platform compatibility with advanced QR code handling.
 - Privacy Settings: Provide granular controls for data sharing and anonymization.
 ---
 ## Conclusion

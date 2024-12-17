@@ -1,7 +1,12 @@
 # 🎓 Blockchain-Based Academic Credential System: OmiChain
+
+
 ---
+
 ## Overview
+
 **OmiChain** is a decentralized blockchain platform for secure storage and instant verification of academic credentials. It ensures tamper-proof records and global accessibility and empowers students with control over their academic data.
+
 ---
 ## Key Features
 - 🔒 Decentralized Storage: Immutable and tamper-proof credential records.

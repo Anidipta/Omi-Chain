@@ -4,7 +4,7 @@ import sqlite3
 from home import home
 from landing import landing, fetch_user_data
 from institute.app1 import get_transaction_hash,issue_credential_ui,revoke_credential_ui,search_credential_ui,analytics_dashboard_ui,monitor_credentials_ui,issue_credential,revoke_credential,fetch_credentials
-#from email_auth import is_valid_email, send_otp_email, verify_otp
+from email_auth import is_valid_email, send_otp_email, verify_otp
 
 # Set up Streamlit page config
 st.set_page_config(page_title="OmiChain - Home", page_icon=":guardsman:", layout="wide")

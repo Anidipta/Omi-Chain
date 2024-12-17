@@ -2,7 +2,7 @@
 
 
 ---
-
+![WhatsApp Image 2024-12-17 at 17 15 52_422c970b](https://github.com/user-attachments/assets/f9d7fa0f-554a-40c9-874e-5f40de4376d7)
 ## Overview
 
 **OmiChain** is a decentralized blockchain platform for secure storage and instant verification of academic credentials. It ensures tamper-proof records and global accessibility and empowers students with control over their academic data.
@@ -34,6 +34,9 @@
 - Smart Contracts: Implement robust revocation and issuance mechanisms.
 - Batch Issuance: Enable CSV uploads for processing multiple credentials.
 - Privacy Settings: Provide granular controls for data sharing and anonymization.
+
+
+
 ![Screenshot 2024-12-17 170852](https://github.com/user-attachments/assets/c541f7ac-b30d-44a5-887d-281e6391b449)
 
 

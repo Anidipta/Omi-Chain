@@ -46,6 +46,9 @@
 - Privacy Settings: Provide granular controls for data sharing and anonymization.
 
 ---
+![WhatsApp Image 2024-12-17 at 16 23 13_5f964ca4](https://github.com/user-attachments/assets/463616a8-0d4c-4550-a953-dc6dcbdfafca)
+
+
 
 ## Conclusion
 EduChainVerify redefines academic credential management with blockchain’s transparency and Python’s user-friendly tools. It fosters trust, improves efficiency, and grants students ownership of their records while reducing institutional overhead. 🌟

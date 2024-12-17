@@ -34,6 +34,9 @@
 - Smart Contracts: Implement robust revocation and issuance mechanisms.
 - Batch Issuance: Enable CSV uploads for processing multiple credentials.
 - Privacy Settings: Provide granular controls for data sharing and anonymization.
+![Screenshot 2024-12-17 170852](https://github.com/user-attachments/assets/c541f7ac-b30d-44a5-887d-281e6391b449)
+
+
 ---
 ## Conclusion
 OmiChain redefines academic credential management with blockchain’s transparency and Python’s user-friendly tools. It fosters trust, improves efficiency, and grants students ownership of their records while reducing institutional overhead. 🌟

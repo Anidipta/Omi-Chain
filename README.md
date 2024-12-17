@@ -1,4 +1,4 @@
-# 🎓 Blockchain-Based Academic Credential System: EduChainVerify
+# 🎓 Blockchain-Based Academic Credential System: OmiChain
 
 ---
 

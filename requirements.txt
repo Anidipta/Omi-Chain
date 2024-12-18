@@ -1,3 +1,4 @@
 pymongo
 web3
 redis
+python-dotenv

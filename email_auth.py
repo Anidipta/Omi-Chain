@@ -13,14 +13,15 @@ import streamlit as st
 # Load environment variables
 load_dotenv()
 
-# Retrieve environment variables from .env file
-SMTP_HOST = os.getenv("SMTP_HOST")
-SMTP_PORT = os.getenv("SMTP_PORT")
-SMTP_USER = os.getenv("SMTP_USER")
-SMTP_PASS = os.getenv("SMTP_PASS")
-SMTP_FROM_EMAIL = os.getenv("SMTP_FROM_EMAIL")
-UPSTASH_REDIS_URL = os.getenv("UPSTASH_REDIS_REST_URL")
-UPSTASH_REDIS_PASS = os.getenv("UPSTASH_REDIS_REST_TOKEN")
+# Fetch secrets from Streamlit Secrets
+SMTP_HOST = st.secrets["mail"]["SMTP_HOST"]
+SMTP_PORT = int(st.secrets["mail"]["SMTP_PORT"])
+SMTP_USER = st.secrets["mail"]["SMTP_USER"]
+SMTP_PASS = st.secrets["mail"]["SMTP_PASS"]
+SMTP_FROM_EMAIL = st.secrets["mail"]["SMTP_FROM_EMAIL"]
+UPSTASH_REDIS_URL = st.secrets["general"]["UPSTASH_REDIS_REST_URL"]
+UPSTASH_REDIS_PASS = st.secrets["general"]["UPSTASH_REDIS_REST_TOKEN"]
+OTP_EXPIRATION = int(st.secrets.get("general", {}).get("OTP_EXPIRATION", 600))  # Default 10 mins
 
 # Connect to Redis (Upstash)
 r = redis.StrictRedis.from_url(UPSTASH_REDIS_URL, password=UPSTASH_REDIS_PASS)

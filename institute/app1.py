@@ -136,19 +136,6 @@ def issue_credential_ui(m):
             # Generate file hash
             file_hash = generate_file_hash(file_path)
 
-            # Generate a QR code for the file
-            qr_code_path = generate_qr_code(file_path)
-
-            # Provide a download link for the QR code
-            with open(qr_code_path, "rb") as qr_file:
-                qr_code_bytes = qr_file.read()
-                st.download_button(
-                    label="Download QR Code Image",
-                    data=qr_code_bytes,
-                    file_name=os.path.basename(qr_code_path),
-                    mime="image/png"
-                )
-
             # Save credential and file details in MongoDB
             credential_id = int(datetime.now().timestamp())  # Generate a unique credential ID
             credentials_collection.insert_one({

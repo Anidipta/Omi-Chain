@@ -18,7 +18,7 @@ os.makedirs(QR_CODE_DIR, exist_ok=True)
 infura_url = "https://sepolia.infura.io/v3/48cb49733a1446978ac6b86326b3a314"
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
-with open("https://github.com/Anidipta/Omi-Chain/blob/main/institute/SmartContractABI.json", "r") as abi_file:  # ABI JSON file
+with open("SmartContractABI.json", "r") as abi_file:  # ABI JSON file
     contract_abi = json.load(abi_file)
 contract_address = Web3.to_checksum_address("0x3DEbd84293E38591a99A8d954488168272aF687d")
 contract = web3.eth.contract(address=contract_address, abi=contract_abi)
